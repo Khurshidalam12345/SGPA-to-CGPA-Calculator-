@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SGPA & CGPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>SGPA & CGPA Calculator</h1>
+
+    <table id="gradeTable">
+        <thead>
+            <tr>
+                <th>Subject</th>
+                <th>Credits</th>
+                <th>Grade Points</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Deep Learning</td>
+                <td><input type="number" min="1" max="5" value="3"></td>
+                <td>
+                    <select>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="4">P</option>
+                        <option value="0">F</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Artificial Intelligence</td>
+                <td><input type="number" min="1" max="5" value="3"></td>
+                <td>
+                    <select>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="4">P</option>
+                        <option value="0">F</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Renewal Energy </td>
+                <td><input type="number" min="1" max="5" value="3"></td>
+                <td>
+                    <select>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="4">P</option>
+                        <option value="0">F</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Rural Development</td>
+                <td><input type="number" min="1" max="5" value="3"></td>
+                <td>
+                    <select>
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="4">P</option>
+                        <option value="0">F</option>
+                    </select>
+                </td>
+            </tr>
+            </tbody>
+    </table>
+
+    <button onclick="calculate()">Calculate</button>
+
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
